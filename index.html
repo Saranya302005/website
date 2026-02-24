@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brew Therapy Coffee Shop</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<header>
+    <h1>Brew Therapy ☕</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to Brew Therapy</h2>
+    <p>Your daily dose of happiness!</p>
+    <button onclick="showOffer()">View Today's Offer</button>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-container">
+        <div class="item">
+            <h3>Espresso</h3>
+            <p>₹120</p>
+        </div>
+        <div class="item">
+            <h3>Cappuccino</h3>
+            <p>₹150</p>
+        </div>
+        <div class="item">
+            <h3>Latte</h3>
+            <p>₹180</p>
+        </div>
+         <div class="item">
+         <h3>velvet latte</h3>
+         <p>₹250</p>
+         </div>
+          <div class="item">
+            <h3>Americano</h3>
+            <p>₹200</p>
+        </div>
+    </div>
+</section>
+  <section id="review">
+        <h2> Review</h2>
+        <textarea id="review-text" placeholder="Share your experience..."></textarea>
+        <button onclick="submitReview()">Submit Review</button>
+        <div id="reviews"></div>
+    </section>
+
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick="welcomeUser()">Submit</button>
+    <p id="message"></p>
+</section>
+
+<footer>
+    <p>© 2026 Brew Therapy | All Rights Reserved</p>
+</footer>
+
+<script src="javascript.js"></script>
+</body>
+</html>
